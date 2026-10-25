@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Villdoesz Client",
+  "version": "1.0",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Villdoesz Client",
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+    "sidePanel"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "side_panel": {
+    "default_path": "panel.html"
+  }
+}
